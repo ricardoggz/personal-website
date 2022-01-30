@@ -16,6 +16,15 @@ const GlobalStyle = createGlobalStyle`
     --color-light:secondary:#b1b6bc;
     --color-green-primary:#21b595;
   }
+
+  .flex-container {
+    max-width:70%;
+    margin: 0 auto;
+
+    @media (min-width:240px) and (max-width:880px) {
+      max-width:90%;
+    }
+  }
 `;
 
 export { GlobalStyle };
