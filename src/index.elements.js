@@ -9,6 +9,13 @@ const GlobalStyle = createGlobalStyle`
   body {
      font-family: 'Raleway', sans-serif;
   }
+  :root {
+    --color-dark-primary:#1f2326;
+    --color-dark-secondary:#252a30;
+    --color-light-primary:#fcffff;
+    --color-light:secondary:#b1b6bc;
+    --color-green-primary:#21b595;
+  }
 `;
 
 export { GlobalStyle };
