@@ -30,6 +30,7 @@ const NavList = styled.nav`
 
   ul li a:hover {
     text-decoration: underline;
+    color:var(--color-green-primary);
   }
   input,
   label {
