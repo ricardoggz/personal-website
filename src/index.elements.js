@@ -9,6 +9,9 @@ const GlobalStyle = createGlobalStyle`
   body {
      font-family: 'Raleway', sans-serif;
   }
+  html {
+    scroll-behavior: smooth;
+}
   :root {
     --color-dark-primary:#1f2326;
     --color-dark-secondary:#252a30;

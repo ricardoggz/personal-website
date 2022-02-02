@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const HeroWrapper = styled.section`
   width: 100%;
-  height: 100vh;
+  height:90vh;
   background:var(--color-dark-primary);
   display: flex;
   align-items: center;

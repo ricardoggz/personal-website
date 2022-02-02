@@ -4,7 +4,7 @@ import { Card } from "../card/Card";
 
 export const Hero = () => {
   return (
-    <HeroWrapper>
+    <HeroWrapper id="home">
       <Card />
     </HeroWrapper>
   );
