@@ -15,7 +15,7 @@ export const NavBar = () => {
           <ul>
             <li>< a href={"#home"}>Inicio</a></li>
             <li>< a href={"#about"}>Sobre mí</a></li>
-            <li>< a href={"#"}>Proyectos</a></li>
+            <li>< a href={"#projects"}>Proyectos</a></li>
             <li>< a href={"#"}>Contacto</a></li>
           </ul>
         </NavList>
