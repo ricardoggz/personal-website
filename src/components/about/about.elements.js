@@ -37,4 +37,23 @@ const SkillCard = styled.div`
   }
 `;
 
-export { AboutWrapper, AboutDescription, SkillsWrapper, SkillCard };
+const ButtonsContainer = styled.div`
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding-top:3rem;
+
+  @media (min-width:240px) and (max-width:880px) {
+    grid-template-columns:1fr;
+    width:100%
+  }
+`;
+export {
+  AboutWrapper,
+  AboutDescription,
+  SkillsWrapper,
+  SkillCard,
+  ButtonsContainer,
+};

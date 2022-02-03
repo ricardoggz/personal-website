@@ -1,10 +1,11 @@
 import React from "react";
+import { Button } from "../button/Button";
 import {
   AboutWrapper,
   AboutDescription,
   SkillsWrapper,
   SkillCard,
-  Tools,
+  ButtonsContainer,
 } from "./about.elements";
 
 export const About = () => {
@@ -14,10 +15,14 @@ export const About = () => {
         <span>Sobre mí</span>
       </center>
       <AboutDescription className="flex-container">
-        Desarrollador Frontend, apasionado por la programación y actualmente me
-        encuentro estudiando el 4to año de la Ingeniería en Comunicación
-        Multimedia.
+        Desarrollador Frontend, apasionado por la programación y el desarrollo
+        web, me gusta crear soluciones digitales e interfaces de usuario interactivas, basadas en la experiencia del mismo. Actualmente me encuentro estudiando el último año de la Ingeniería en Comunicación Multimedia.
+        <ButtonsContainer>
+          <Button title="Mandar mensaje" url="mailto:ricardo_ggzicm@outlook.com" />
+          <Button title="Ver Linkedin" url="https://www.linkedin.com/in/ricardoguevarag-a33657216/" />
+        </ButtonsContainer>
       </AboutDescription>
+
       <SkillsWrapper className="flex-container">
         <SkillCard>
           <span>Skills (vanilla stack)</span>
