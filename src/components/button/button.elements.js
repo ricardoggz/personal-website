@@ -6,7 +6,7 @@ const ButtonWrapper = styled.a`
   border-radius:2rem; 
   padding:0.5rem;
   color:var(--color-light-primary);
-  font-size:1.5rem;
+  font-size:1.8rem;
   cursor:pointer;
   text-align:center;
   text-decoration:none;
