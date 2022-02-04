@@ -13,7 +13,6 @@ export const NavBar = () => {
             <FaBars />
           </label>
           <ul>
-            <li>< a href={"#home"}>Inicio</a></li>
             <li>< a href={"#about"}>Sobre mí</a></li>
             <li>< a href={"#projects"}>Proyectos</a></li>
           </ul>
