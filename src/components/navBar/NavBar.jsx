@@ -16,7 +16,6 @@ export const NavBar = () => {
             <li>< a href={"#home"}>Inicio</a></li>
             <li>< a href={"#about"}>Sobre mí</a></li>
             <li>< a href={"#projects"}>Proyectos</a></li>
-            <li>< a href={"#"}>Contacto</a></li>
           </ul>
         </NavList>
       </NavTitles>

@@ -38,7 +38,7 @@ const SkillCard = styled.div`
 `;
 
 const ButtonsContainer = styled.div`
-  width: 60%;
+  width: 40%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
