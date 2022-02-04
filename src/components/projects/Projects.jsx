@@ -11,7 +11,7 @@ export const Projects = () => {
       </center>
       <CardsContainer className="flex-container">
         {cardData.map((card) => (
-          <CardProject image={card.image} title={card.title} />
+          <CardProject image={card.image} url={card.url} key={card.url} />
         ))}
       </CardsContainer>
     </ProjectWrapper>

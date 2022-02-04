@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
-import { CardWrapper, ImageContainer, CardText } from "./card.elements";
+import { CardWrapper, CardText } from "./card.elements";
 export const Card = () => {
   return (
     <CardWrapper>

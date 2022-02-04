@@ -9,7 +9,7 @@ const HeroWrapper = styled.section`
   justify-content: center;
 
   @media (min-width:240px) and (max-width:880px) {
-    height:70vh;
+    height:80vh;
   }
 `;
 

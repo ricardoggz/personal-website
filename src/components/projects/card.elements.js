@@ -18,6 +18,7 @@ const CardsContainer = styled.div`
 
   @media (min-width: 240px) and (max-width: 880px) {
     grid-template-columns: 1fr;
+    gap:3rem;
   }
 `;
 
@@ -26,11 +27,18 @@ const CardWrapper = styled.div`
   border-radius: 5px;
   figure {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
   figure img {
     width: 100%;
     object-fit: contain;
+    border-radius: 5px;
+    opacity:0.7;
+
+    :hover {
+      opacity:1;
+      transition: all 300ms ease;
+    }
   }
 
   span {
@@ -38,7 +46,7 @@ const CardWrapper = styled.div`
   }
 
   div {
-    padding: 1rem;
+    width:100%;
   }
 `;
 

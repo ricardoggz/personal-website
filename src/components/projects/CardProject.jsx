@@ -1,17 +1,14 @@
 import React from "react";
 import { CardWrapper } from "./card.elements";
 
-export const CardProject = ({ image, title }) => {
+export const CardProject = ({ image, url }) => {
   return (
     <CardWrapper>
       <figure>
-        <img src={image} />
+        <a href={url} target="_blank" rel="noreferrer">
+          <img src={image} alt="loading" />
+        </a>
       </figure>
-      <div>
-        <center>
-          <span>{title}</span>
-        </center>
-      </div>
     </CardWrapper>
   );
 };
