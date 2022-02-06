@@ -3,7 +3,7 @@ import styled from "styled-components";
 const CardWrapper = styled.div`
   width: 70%;
   height: auto;
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 8px;
   background: var(--color-dark-secondary);
   color: var(--color-light-primary);
@@ -36,4 +36,29 @@ const CardText = styled.div`
     }
   }
 `;
-export { CardWrapper, CardText };
+
+const ListContainer = styled.div`
+padding-top:1rem;
+font-size:1.5rem;
+
+ul li {
+  display:inline;
+  padding 0 1rem;
+} 
+`;
+
+const ButtonContainer = styled.div`
+  padding-top:1rem;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+
+  a {
+    padding: 0.5rem;
+  }
+
+  @media (min-width: 240px) and (max-width: 880px) {
+    width: 100%;
+  }
+`;
+export { CardWrapper, CardText, ListContainer, ButtonContainer };

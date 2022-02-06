@@ -13,7 +13,7 @@ export const Footer = () => {
             <li><a href="https://github.com/ricardoggz" target={"_blank"}  rel="noreferrer"><BsGithub /></a></li>
             <li><a href="https://www.linkedin.com/in/ricardoguevarag-a33657216/" target={"_blank"}  rel="noreferrer"><BsLinkedin /></a></li>
             <li><a href="https://www.instagram.com/ricardo_guevarag/?hl=es-la" target={"_blank"}  rel="noreferrer"><BsInstagram /></a></li>
-            <li><a href="mailto:ricardo_ggzicm@outlook.com"><FiMail /></a></li>
+            <li><a href="mailto:ricardo_ggzicm@outlook.com" ><FiMail /></a></li>
           </ul>
         </SocialList>
       </SocialContainer>

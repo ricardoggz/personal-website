@@ -19,7 +19,7 @@ export const About = () => {
         web, me gusta crear soluciones digitales e interfaces de usuario interactivas, basadas en la experiencia del mismo. Actualmente me encuentro estudiando el último año de la Ingeniería en Comunicación Multimedia.
         <ButtonsContainer>
           <Button title="Escríbeme" url="mailto:ricardo_ggzicm@outlook.com" />
-          <Button title="Ver Linkedin" url="https://www.linkedin.com/in/ricardoguevarag-a33657216/" />
+          <Button title="Ver Linkedin" url="https://www.linkedin.com/in/ricardoguevarag-a33657216/" target="_blank" />
         </ButtonsContainer>
       </AboutDescription>
 
