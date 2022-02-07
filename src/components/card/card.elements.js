@@ -43,12 +43,22 @@ font-size:1.5rem;
 
 ul li {
   display:inline;
-  padding 0 1rem;
 } 
+
+ul li a {
+  text-decoration:none;
+  color: var(--color-light-primary);
+  padding 0 1rem;
+}
+
+ul li a:hover {
+  color:var(--color-green-primary);
+  transition: all 300ms;
+}
 `;
 
 const ButtonContainer = styled.div`
-  padding-top:1rem;
+  padding-top: 1rem;
   width: 25%;
   display: flex;
   justify-content: center;

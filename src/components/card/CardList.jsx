@@ -7,9 +7,9 @@ export const CardList = () => {
   return (
       <ListContainer>
           <ul>
-              <li><BsGithub /></li>
-              <li><BsLinkedin /></li>
-              <li><FiMail /></li>
+              <li><a href="#"><BsGithub /></a></li>
+              <li><a href="#"><BsLinkedin /></a></li>
+              <li><a href="#"><FiMail /></a></li>
           </ul>
       </ListContainer>
   );
