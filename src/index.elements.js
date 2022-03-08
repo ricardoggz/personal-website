@@ -7,14 +7,14 @@ const GlobalStyle = createGlobalStyle`
       box-sizing:border-box;
   }
   body {
-     font-family: 'Raleway', sans-serif;
+     font-family: 'Poppins', sans-serif;
      background:var(--color-dark-primary);
   }
   html {
     scroll-behavior: smooth;
 }
   :root {
-    --color-dark-primary:#1f2326;
+    --color-dark-primary:#102c44;
     --color-dark-secondary:#252a30;
     --color-light-primary:#fcffff;
     --color-light-secondary:#b1b6bc;

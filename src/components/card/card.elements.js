@@ -5,7 +5,6 @@ const CardWrapper = styled.div`
   height: auto;
   padding: 1rem;
   border-radius: 8px;
-  background: var(--color-dark-secondary);
   color: var(--color-light-primary);
 
   @media (min-width: 240px) and (max-width: 880px) {
@@ -21,6 +20,7 @@ const CardText = styled.div`
 
   .title {
     font-size: 5rem;
+    font-weight:600;
   }
   .subtitle {
     font-size: 2.5rem;
