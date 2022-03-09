@@ -8,17 +8,18 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
      font-family: 'Poppins', sans-serif;
-     background:var(--color-dark-primary);
+     background:var(--color-ligth-primary);
+     color:var(--color-blue-primary);
   }
   html {
     scroll-behavior: smooth;
 }
   :root {
-    --color-dark-primary:#102c44;
+    --color-blue-primary:#102c44;
+    --color-dark-primary:#1e272e;
     --color-dark-secondary:#252a30;
     --color-light-primary:#fcffff;
     --color-light-secondary:#b1b6bc;
-    --color-green-primary:#21b595;
   }
 
   .flex-container {
@@ -31,4 +32,4 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-export { GlobalStyle };
+export default GlobalStyle;

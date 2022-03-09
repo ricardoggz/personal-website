@@ -1,9 +1,11 @@
 import React from "react";
+import GlobalStyle from "../index.elements";
 
 export const App = () => {
   return (
     <React.Fragment>
-     <h1>Holaa</h1>
+      <GlobalStyle />
+      <h1>Holaa</h1>
     </React.Fragment>
   );
 };
