@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
   body {
      font-family: 'Poppins', sans-serif;
      background:var(--color-ligth-primary);
-     color:var(--color-blue-primary);
+     color:var(--color-dark-primary);
   }
   html {
     scroll-behavior: smooth;
@@ -23,7 +23,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .flex-container {
-    max-width:80%;
+    max-width:70%;
     margin: 0 auto;
 
     @media (min-width:240px) and (max-width:880px) {
