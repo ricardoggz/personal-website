@@ -1,6 +1,6 @@
 import React from "react";
-import computer from "../../img/computer.png";
-import { AboutWrapper, AboutImage, AboutDescription } from "./elements";
+import AnchorButton from "../anchorButton/AnchorButton";
+import { AboutWrapper, AboutDescription } from "./elements";
 
 const About = () => {
   return (
@@ -9,10 +9,15 @@ const About = () => {
         <h1>Sobre mí</h1>
         <p>
           ¡Hola! 🤚, soy desarrollador JavaScript, me gusta crear soluciones
-          digitales a la medida. Así como también apasionado por la programación y las tecnologías de la información. Actualmente curso el último año de la Ingeniería en Comunicación Multimedia.
+          digitales a la medida. También soy apasionado por la programación y
+          las tecnologías de la información. Actualmente curso el último año de
+          la Ingeniería en Comunicación Multimedia.
         </p>
+        <div className="buttons">
+          <AnchorButton title="Ver mi CV" />
+          <AnchorButton title="Mandar Mensaje" />
+        </div>
       </AboutDescription>
-      <img src={computer} />
     </AboutWrapper>
   );
 };
