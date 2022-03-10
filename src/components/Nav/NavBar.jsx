@@ -8,8 +8,7 @@ const NavBar = () => {
         <Logo><a href="#">RGDEV</a></Logo>
         <ul>
           <li><a href="#">Sobre mí</a></li>
-          <li><a href="#">Sobre mí</a></li>
-          <li><a href="#">Sobre mí</a></li>
+          <li><a href="#">Portafolio</a></li>
         </ul>
       </NavList>
     </NavWrapper>

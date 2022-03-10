@@ -14,6 +14,12 @@ const GlobalStyle = createGlobalStyle`
   html {
     scroll-behavior: smooth;
 }
+
+h1 {
+  font-size:2rem;
+  font-weight:700;
+  margin-bottom:2rem;
+}
   :root {
     --color-blue-primary:#102c44;
     --color-dark-primary:#1e272e;
