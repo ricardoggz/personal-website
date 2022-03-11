@@ -13,33 +13,22 @@ const GridCards = styled.div`
   gap: 1rem;
 `;
 
-const Card = styled.div`
+const Card = styled.figure`
   width: 100%;
   height: auto;
-  -webkit-box-shadow: -1px 2px 37px 5px rgba(0, 0, 0, 0.19);
-  box-shadow: -1px 2px 37px 5px rgba(0, 0, 0, 0.19);
-  border-radius: 8px;
-  figure {
-    width: 100%;
-    height: auto;
-  }
-  figure img {
+  box-shadow: 16px 18px 62px -15px rgba(0, 0, 0, 0.54);
+  -webkit-box-shadow: 16px 18px 62px -15px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 16px 18px 62px -15px rgba(0, 0, 0, 0.54);
+  img {
     object-fit: contain;
     width: 100%;
     height: 100%;
     border-radius: 5px;
     opacity: 0.95;
   }
-
-  figure > img:hover {
+  img:hover {
     opacity: 100;
     transition: all 300ms ease;
-  }
-
-  div {
-    width: 100%;
-    margin-top: 1rem;
-    display: flex;
   }
 `;
 
