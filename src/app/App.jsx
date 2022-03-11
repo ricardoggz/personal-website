@@ -1,19 +1,19 @@
-import React from "react";
-import Hero from "../components/hero/Hero";
-import GlobalStyle from "../index.elements";
-import About from "../components/about/About";
-import NavBar from "../components/Nav/NavBar";
-import Projects from "../components/projects/Projects";
+import React, { lazy, Suspense } from "react";
+import Loader from "../components/loader/Loader";
+
+const Hero = lazy(() => import("../components/hero/Hero"));
+const About = lazy(() => import("../components/about/About"));
+const NavBar = lazy(() => import("../components/Nav/NavBar"));
+const Projects = lazy(() => import("../components/projects/Projects"));
 
 const App = () => {
   return (
-    <React.Fragment>
-      <GlobalStyle />
+    <Suspense fallback={<Loader />}>
       <NavBar />
       <Hero />
       <About />
       <Projects />
-    </React.Fragment>
+    </Suspense>
   );
 };
 

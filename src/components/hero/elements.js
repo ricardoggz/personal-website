@@ -9,17 +9,17 @@ const HeroWrapper = styled.section`
 const HeroDescription = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
-  @media (min-width:240px) and (max-width:880px){
-    flex-direction:column;
-    justify-content:center;
+  justify-content: start;
+  @media (min-width: 240px) and (max-width: 880px) {
+    flex-direction: column;
+    justify-content: center;
   }
 `;
 const HeroImage = styled.img`
   border-radius: 50%;
   width: 20%;
-  @media (min-width:240px) and (max-width:880px){
-    width:40%;
+  @media (min-width: 240px) and (max-width: 880px) {
+    width: 40%;
   }
 `;
 const HeroTitles = styled.div`
@@ -32,11 +32,14 @@ const HeroTitles = styled.div`
     font-weight: 700;
     font-size: 1.5rem;
   }
-  @media (min-width:240px) and (max-width:880px){
-    span{
-      font-size:2rem;
+  @media (min-width: 240px) and (max-width: 880px) {
+    span {
+      font-size: 1.5rem;
     }
-    padding-top:1rem; 
+    p {
+      font-size:1rem;
+    }
+    padding-top: 1rem;
   }
 `;
 

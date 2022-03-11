@@ -1,14 +1,12 @@
-import React, { lazy, Suspense } from "react";
+import React from "react";
+import App from "./app/App";
 import ReactDOM from "react-dom";
-import Loader from "./components/loader/Loader";
-
-const App = lazy(() => import("./app/App"));
+import GlobalStyle from "./index.elements";
 
 ReactDOM.render(
   <>
-    <Suspense fallback={<Loader />}>
-      <App />
-    </Suspense>
+    <GlobalStyle />
+    <App />
   </>,
   document.getElementById("root")
 );
