@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
 h1, h2 {
   font-size:2rem;
   font-weight:700;
-  margin-bottom:2rem;
+  margin-bottom:3rem;
 }
   :root {
     --color-blue-primary:#102c44;
@@ -27,6 +27,7 @@ h1, h2 {
     --color-dark-secondary:#252a30;
     --color-light-primary:#fcffff;
     --color-light-secondary:#f5f6fa;
+    --color-gray:#57606f;
   }
 
   .flex-container {

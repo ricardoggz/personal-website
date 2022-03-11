@@ -1,7 +1,6 @@
 import React from "react";
-
-import storeApp from "../../img/store-app.png";
-import landing from "../../img/landing.png"
+import logoPF from "../../img/logo-pf.jpg";
+import AnchorButton from "../anchorButton/AnchorButton";
 import { WrapperProject, GridCards, Card } from "./elements";
 
 const Projects = () => {
@@ -11,9 +10,19 @@ const Projects = () => {
         <h2>Proyectos recientes</h2>
         <GridCards>
           <Card>
-            <a href="https://playitafilms-demo.netlify.app/" target="_blank">
-              <img src={ landing } alt="LANDING" loading="lazy"/>
-            </a>
+            <figure>
+              <img src={logoPF} alt="Playita Films" loading="lazy" />
+            </figure>
+            <div>
+              <span>Sitio web para playita films</span>
+              <p>
+                Desarrollé un sitio para mostrar los servicios de una productora
+                y renta de equipos para producción audiovisual.
+              </p>
+              <div className="button_container">
+                <AnchorButton title="Ver proyecto" />
+              </div>
+            </div>
           </Card>
         </GridCards>
       </div>
