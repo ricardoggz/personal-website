@@ -7,8 +7,8 @@ const NavBar = () => {
       <NavList className="flex-container">
         <Logo><a href="#">RGDEV</a></Logo>
         <ul>
-          <li><a href="#">Sobre mí</a></li>
-          <li><a href="#">Portafolio</a></li>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#portfolio">Portafolio</a></li>
         </ul>
       </NavList>
     </NavWrapper>

@@ -4,7 +4,7 @@ import { AboutWrapper, AboutDescription } from "./elements";
 
 const About = () => {
   return (
-    <AboutWrapper className="flex-container">
+    <AboutWrapper className="flex-container" id="about">
       <AboutDescription>
         <h1>Sobre mí</h1>
         <p>

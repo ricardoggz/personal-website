@@ -5,7 +5,7 @@ import About from "../components/about/About";
 import NavBar from "../components/Nav/NavBar";
 import Projects from "../components/projects/Projects";
 
-export const App = () => {
+const App = () => {
   return (
     <React.Fragment>
       <GlobalStyle />
@@ -16,3 +16,5 @@ export const App = () => {
     </React.Fragment>
   );
 };
+
+export default App;

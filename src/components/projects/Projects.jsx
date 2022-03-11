@@ -5,7 +5,7 @@ import { WrapperProject, GridCards, Card } from "./elements";
 
 const Projects = () => {
   return (
-    <WrapperProject>
+    <WrapperProject id="portfolio">
       <div className="flex-container">
         <h2>Proyectos recientes</h2>
         <GridCards>
