@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
     scroll-behavior: smooth;
 }
 
-h1 {
+h1, h2 {
   font-size:2rem;
   font-weight:700;
   margin-bottom:2rem;
@@ -25,7 +25,7 @@ h1 {
     --color-dark-primary:#1e272e;
     --color-dark-secondary:#252a30;
     --color-light-primary:#fcffff;
-    --color-light-secondary:#b1b6bc;
+    --color-light-secondary:#f5f6fa;
   }
 
   .flex-container {

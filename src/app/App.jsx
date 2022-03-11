@@ -1,8 +1,9 @@
 import React from "react";
-import NavBar from "../components/Nav/NavBar";
 import Hero from "../components/hero/Hero";
 import GlobalStyle from "../index.elements";
 import About from "../components/about/About";
+import NavBar from "../components/Nav/NavBar";
+import Projects from "../components/projects/Projects";
 
 export const App = () => {
   return (
@@ -11,6 +12,7 @@ export const App = () => {
       <NavBar />
       <Hero />
       <About />
+      <Projects />
     </React.Fragment>
   );
 };
