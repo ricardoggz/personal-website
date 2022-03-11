@@ -1,7 +1,8 @@
 import React from "react";
-import { WrapperProject, GridCards, Card } from "./elements";
-import AnchorButton from "../anchorButton/AnchorButton";
+
 import storeApp from "../../img/store-app.png";
+import landing from "../../img/landing.png"
+import { WrapperProject, GridCards, Card } from "./elements";
 
 const Projects = () => {
   return (
@@ -10,8 +11,8 @@ const Projects = () => {
         <h2>Proyectos recientes</h2>
         <GridCards>
           <Card>
-            <a href="https://e-commerce-clothes-app.netlify.app/" target="_blank">
-              <img src={storeApp} alt="STORE APP" loading="lazy"/>
+            <a href="https://playitafilms-demo.netlify.app/" target="_blank">
+              <img src={ landing } alt="LANDING" loading="lazy"/>
             </a>
           </Card>
         </GridCards>

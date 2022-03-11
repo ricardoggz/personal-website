@@ -9,7 +9,7 @@ const HeroWrapper = styled.section`
 const HeroDescription = styled.div`
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   @media (min-width:240px) and (max-width:880px){
     flex-direction:column;
     justify-content:center;
