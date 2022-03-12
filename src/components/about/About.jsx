@@ -4,8 +4,8 @@ import { AboutWrapper, AboutDescription } from "./elements";
 
 const About = () => {
   return (
-    <AboutWrapper className="flex-container" id="about">
-      <AboutDescription>
+    <AboutWrapper id="about">
+      <AboutDescription className="flex-container" >
         <h2>Sobre mí 🤚</h2>
         <p>
           Soy desarrollador JavaScript, me gusta crear soluciones

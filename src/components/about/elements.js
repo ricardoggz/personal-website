@@ -2,15 +2,10 @@ import styled from "styled-components";
 
 const AboutWrapper = styled.section`
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: spacebetween;
   padding: 5rem 0;
-  gap: 2rem;
   p {
     color:var(--color-gray);
   }
-
   @media (min-width: 240px) and (max-width: 720px) {
     img {
       display: none;
