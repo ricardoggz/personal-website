@@ -3,6 +3,7 @@ import styled from "styled-components";
 const AboutWrapper = styled.section`
   height: 100%;
   padding: 5rem 0;
+  background:var(--color-light-secondary);
   p {
     color:var(--color-gray);
   }

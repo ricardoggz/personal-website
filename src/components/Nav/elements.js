@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const NavWrapper = styled.header`
   width: 100%;
-  background: var(--color-dark-primary);
+  background: var(--color-blue-primary);
   color: var(--color-light-primary);
   padding: 1rem 0;
 `;

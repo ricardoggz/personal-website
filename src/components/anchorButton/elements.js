@@ -3,8 +3,8 @@ import styled from "styled-components";
 const WrapperButton = styled.a`
   width: 100%;
   text-decoration: none;
-  background: var(--color-blue-secondary);
-  border: 1px solid var(--color-blue-secondary);
+  background: var(--color-blue-primary);
+  border: 1px solid var(--color-blue-primary);
   color: var(--color-light-primary);
   padding: 0.5rem;
   border-radius: 5px;

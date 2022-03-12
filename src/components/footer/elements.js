@@ -3,12 +3,12 @@ import styled from "styled-components";
 const FooterWrapper = styled.footer`
   width: 100%;
   background: var(--color-dark-secondary);
-  padding: 3rem 0;
 `;
 const FooterList = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 3rem 0;
   ul li {
     list-style: none;
     display: inline;

@@ -3,7 +3,6 @@ import styled from "styled-components";
 const WrapperProject = styled.section`
   width: 100%;
   height: auto;
-  background: var(--color-light-secondary);
   padding: 5rem 0;
 `;
 const GridCards = styled.div`

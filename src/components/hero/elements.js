@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const HeroWrapper = styled.section`
   width: 100%;
-  background: var(--color-dark-primary);
+  background: var(--color-blue-primary);
   padding: 5rem 0;
   color: var(--color-light-primary);
 `;
