@@ -23,7 +23,7 @@
     "eject": "react-scripts eject"
   },
   "reactSnap": {
-    "source": "dist",
+    "source": "build",
     "minifyHtml": {
       "collapseWhitespace": false,
       "removeComments": false
