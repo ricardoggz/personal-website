@@ -55,6 +55,9 @@ const Card = styled.div`
     color:var(--color-gray);
     line-height:2rem;
   }
+   svg {
+     color:var(--color-blue-secondary);
+   }
 `;
 
 export { WrapperProject, GridCards, Card };
