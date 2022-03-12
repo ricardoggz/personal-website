@@ -1,12 +1,10 @@
 import React from "react";
 import App from "./app/App";
-import ReactDOM from "react-dom";
-import GlobalStyle from "./index.elements";
+import { hydrate, render } from "react-dom";
 
-ReactDOM.render(
-  <>
-    <GlobalStyle />
-    <App />
-  </>,
-  document.getElementById("root")
-);
+const rootElement = document.getElementById("root");
+if (rootElement.hasChildNodes()) {
+  hydrate(<App />, rootElement);
+} else {
+  render(<App />, rootElement);
+}
