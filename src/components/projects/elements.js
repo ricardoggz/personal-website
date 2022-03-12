@@ -30,35 +30,31 @@ const Card = styled.div`
     height:auto;
     display:flex;
     justify-content:center;
-    background:var(--color-blue-primary);
-    border-radius: 5px;
   }
   figure img {
-    width:50%;
+    width:100%;
     height:100%;
     object-fit:contain;
-    border-radius:50%;
-    padding:1rem;
-    filter: grayscale(100%);
   }
 
   div {
-    padding: 1.5rem;
+    width:100%;
+    padding:1rem;
+    
   }
-  div > span {
+  a {
+    text-decoration:none;
+  }
+  a span {
     font-weight:700;
     font-size: 1.5rem;
+    color:var(--color-dark-primary);
   }
-  div p {
+  a  p {
     text-align:justify;
-    padding:1rem 0;
+    padding-top:1rem;
     color:var(--color-gray);
     line-height:2rem;
-  }
-  .button_container {
-    padding:0;
-    display:flex;
-    width:100%;
   }
 `;
 

@@ -1,28 +1,28 @@
 import React from "react";
-import logoPF from "../../img/logo-pf.jpg";
-import AnchorButton from "../anchorButton/AnchorButton";
+import landing from "../../img/landing.png";
+import { BsLink45Deg } from "react-icons/bs";
 import { WrapperProject, GridCards, Card } from "./elements";
 
 const Projects = () => {
   return (
     <WrapperProject id="portfolio">
       <div className="flex-container">
-        <h2>Proyectos recientes</h2>
+        <h2>Portafolio</h2>
         <GridCards>
           <Card>
-            <figure>
-              <img src={logoPF} alt="Playita Films" loading="lazy" />
-            </figure>
-            <div>
-              <span>Sitio web para playita films</span>
-              <p>
-                Desarrollé un sitio para mostrar los servicios de una productora
-                y renta de equipos para producción audiovisual.
-              </p>
-              <div className="button_container">
-                <AnchorButton title="Ver proyecto" />
+            <a href="https://playitafilms-demo.netlify.app/" target={"_blank"} rel="noreferrer">
+              <figure>
+                <img src={landing} alt="Playita Films" loading="lazy" />
+              </figure>
+              <div>
+                <span>
+                  <BsLink45Deg /> Sitio web para playita films
+                </span>
+                <p>
+                  Desarrollé un sitio para mostrar los servicios y el equipo en renta de una productora audiovisual.
+                </p>
               </div>
-            </div>
+            </a>
           </Card>
         </GridCards>
       </div>

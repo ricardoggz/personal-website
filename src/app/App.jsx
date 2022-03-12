@@ -11,8 +11,8 @@ const App = () => {
     <Suspense fallback={<Loader />}>
       <NavBar />
       <Hero />
-      <About />
       <Projects />
+      <About />
     </Suspense>
   );
 };

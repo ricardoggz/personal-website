@@ -6,9 +6,9 @@ const About = () => {
   return (
     <AboutWrapper className="flex-container" id="about">
       <AboutDescription>
-        <h1>Sobre mí</h1>
+        <h2>Sobre mí 🤚</h2>
         <p>
-          ¡Hola! 🤚, soy desarrollador JavaScript, me gusta crear soluciones
+          Soy desarrollador JavaScript, me gusta crear soluciones
           digitales a la medida y soy un apasionado por la programación y
           las tecnologías de la información. Actualmente curso el último año de
           la Ingeniería en Comunicación Multimedia.

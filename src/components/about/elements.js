@@ -7,8 +7,8 @@ const AboutWrapper = styled.section`
   justify-content: spacebetween;
   padding: 5rem 0;
   gap: 2rem;
-  img {
-    width: 30%;
+  p {
+    color:var(--color-gray);
   }
 
   @media (min-width: 240px) and (max-width: 720px) {

@@ -9,10 +9,11 @@ const HeroWrapper = styled.section`
 const HeroDescription = styled.div`
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   @media (min-width: 240px) and (max-width: 880px) {
-    flex-direction: column;
     justify-content: center;
+    text-align:center;
+    flex-direction:column;
   }
 `;
 const HeroImage = styled.img`
@@ -34,11 +35,9 @@ const HeroTitles = styled.div`
   }
   @media (min-width: 240px) and (max-width: 880px) {
     span {
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
-    p {
-      font-size:1rem;
-    }
+    
     padding-top: 1rem;
   }
 `;
