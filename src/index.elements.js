@@ -22,7 +22,7 @@ h1, h2 {
 }
   :root {
     --color-blue-primary:#102c44;
-    --color-blue-secondary:#2e86de;
+    --color-blue-secondary:#74b9ff;
     --color-dark-primary:#1e272e;
     --color-dark-secondary:#252a30;
     --color-light-primary:#fcffff;
