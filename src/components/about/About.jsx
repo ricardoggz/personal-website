@@ -14,8 +14,8 @@ const About = () => {
           la Ingeniería en Comunicación Multimedia.
         </p>
         <div className="buttons">
-          <AnchorButton title="Ver mi CV" />
-          <AnchorButton title="Mandar Mensaje" />
+          <AnchorButton title="Ver CV" />
+          <AnchorButton title="Mandar Mensaje" url="mailto:ricardo_ggzicm@outlook.com" />
         </div>
       </AboutDescription>
     </AboutWrapper>
